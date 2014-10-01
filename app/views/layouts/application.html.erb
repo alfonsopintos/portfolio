@@ -7,8 +7,36 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <nav class="navbar navbar-inverse" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/">AP</a>
+    </div>
 
-<%= yield %>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      
+      <ul class="nav navbar-nav pull-right">
 
+        <li class="active">
+          <a href="/dashboard/about">About</a>
+        </li>
+        <li>
+          <a href="/dashboard/experience">Portfolio</a>
+        </li>
+        <li>
+          <a href="/dashboard/skills">Skills</a>
+        </li>
+        <li>
+          <a href="/dashboard/contact">Contact</a>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="container-fluid">
+  <%= yield %>
+</div>
 </body>
 </html>

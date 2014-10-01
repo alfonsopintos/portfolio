@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
   get 'dashboard/index'
   get 'dashboard/experience'
+  get 'dashboard/about'
+  get 'dashboard/skills'
+  get 'dashboard/contact'
 
   root 'dashboard#index'
 
