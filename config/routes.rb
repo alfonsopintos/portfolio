@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   get 'dashboard/skills'
   get 'dashboard/contact'
 
-  root 'dashboard#index'
+  root 'dashboard#about'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

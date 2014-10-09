@@ -23,6 +23,15 @@
  /*Pushes down and narrows field*/
 .sections {
   padding: 20vh 250px;
+}
 
+.logo_sections {
+  padding: 10vh 250px;
+}
 
+.row{
+  padding-top: 20px;
+}
+.grey_color{
+  background-color: #c3c3c3;
 }
